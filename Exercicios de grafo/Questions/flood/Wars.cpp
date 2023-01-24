@@ -56,13 +56,6 @@ int main()
                 {
                     flood(i, j);
                     eagles++;
-                    /*
-                    if(cont>=1)
-                    {
-                        eagles++;
-                    }
-                    cont=0;
-                    */
                 }
             }
         }
