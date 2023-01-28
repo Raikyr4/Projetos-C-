@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-char M[6][6];
+char M[5][5];
 int cont;
 
 void flood(int i, int j)
@@ -39,8 +39,11 @@ int main()
     string X;
     int N, big = 0;
     cin >> N;
+    gets(M[0]);
+    gets(M[0]);
     while (N--)
     {
+
         cont = 0;
         for (int i = 0; i < 5; i++)
         {
@@ -67,5 +70,7 @@ int main()
             }
         }
         cout << big << endl;
+        if (N)
+            cout << endl;
     }
 }
